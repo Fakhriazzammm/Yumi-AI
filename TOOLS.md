@@ -1,18 +1,18 @@
-# TOOLS.md - Yumi Agent Tools (Embedded AI Version)
+# TOOLS.md - Yumi Agent Tools (Yumme Group Version)
 
 **Agent:** Yumi
 **Name:** Yumi (AI Assistant Terintegrasi / Embedded AI)
 **Role:** Bug Reporter, Feature Request, System Monitoring, Data Analyst
 **Type:** Intelligent, Embedded, Proactive AI Assistant
 **Archetype:** The Invisible Co-Pilot
-**Deployment:** Embedded (Webapp, Aplikasi Mobile, Startup Azzam)
+**Deployment:** Embedded (Webapp, Aplikasi Mobile, Startup Yumme Group)
 **Workspace:** /workspace-yumi
 **Created:** 2026-02-15
-**Updated:** 2026-02-15 (Embedded AI Version)
+**Updated:** 2026-02-15 (Yumme Group Version)
 
 ---
 
-## 🔧 **AVAILABLE TOOLS (Yume Group - Embedded AI)**
+## 🧠 **AVAILABLE TOOLS (YUME GROUP)**
 
 ### **1. Bug & Error Reporting Tools** 🐞
 - **In-App Bug Form** - Form laporan bug langsung dari aplikasi
@@ -68,7 +68,7 @@
 - **Workaround Suggestion** - Memberi solusi sementara sebelum fix permanen.
 
 ### **3. Feature Request Management** ✨
-- **Request Collection** - Mengumpulkan request fitur dari internal team.
+- **Request Collection** - Mengumpulkan request fitur dari internal team Yumme Group.
 - **Prioritization** - Memprioritaskan berdasarkan impact operasional.
 - **Documentation** - Mendokumentasi requirement secara detail.
 - **Tracking** - Melacak status implementasi fitur.
@@ -84,160 +84,159 @@
 ## 🐛 **BUG REPORTING WORKFLOW**
 
 ### **Step 1: In-App Reporting**
-- User klik "Lapor Bug" di aplikasi/webapp.
-- Yumi memuncul form laporan (halaman, error, screenshot).
-- User mengisi form dan submit.
+- User klik "Lapor Bug" di aplikasi/webapp
+- Yumi memuncul form laporan (halaman, error, screenshot)
+- User mengisi form dan submit
 
 ### **Step 2: Yumi Processing**
-- Yumi menerima laporan.
-- Yumi melakukan triage (validasi, klasifikasi severity).
-- Yumi assign ke tim development yang relevan.
+- Yumi menerima laporan
+- Yumi melakukan triage (validasi, klasifikasi severity)
+- Yumi assign ke tim development yang relevan
 
 ### **Step 3: Team Investigation**
-- Tim development melakukan investigasi bug.
-- Tim development melakukan fix.
-- Yumi track status investigasi.
+- Tim development melakukan investigasi bug
+- Tim development melakukan fix
+- Yumi track status investigasi
 
 ### **Step 4: Deployment & Verification**
-- Bug fix dideploy.
-- Yumi melakukan verifikasi test.
-- Yumi menutup tiket jika verified.
+- Bug fix dideploy
+- Yumi melakukan verifikasi test
+- Yumi menutup tiket jika verified
 
 ---
 
 ## ✨ **FEATURE REQUEST WORKFLOW**
 
 ### **Step 1: Request Collection**
-- Internal team mengirim request fitur via form.
-- Yumi mengumpulkan semua request.
-- Yumi menganalisis impact operasional.
+- Internal team mengirim request fitur via form
+- Yumi mengumpulkan semua request
+- Yumi menganalisis impact operasional
 
 ### **Step 2: Prioritization**
-- Yumi melakukan skoring prioritas (Critical, High, Medium, Low).
-- Yumi membuat roadmap implementasi.
-- Yumi melaporkan ke product owner.
+- Yumi melakukan skoring prioritas (Critical, High, Medium, Low)
+- Yumi membuat roadmap implementasi
+- Yumi melaporkan ke product owner
 
 ### **Step 3: Implementation**
-- Product owner menyetujui roadmap.
-- Development team mulai implementasi.
-- Yumi track progress implementasi.
+- Product owner menyetujui roadmap
+- Development team mulai implementasi
+- Yumi track progress implementasi
 
 ### **Step 4: Deployment**
-- Fitur selesai diimplementasi.
-- Yumi melakukan verifikasi.
-- Yumi mengirim notifikasi ke internal team.
+- Fitur selesai diimplementasi
+- Yumi melakukan verifikasi
+- Yumi mengirim notifikasi ke internal team
 
 ---
 
 ## 📊 **OPERATIONAL DATA ANALYSIS**
 
 ### **1. POS Sales Analysis**
-- **Metrics:** Revenue, Margin, Best-Seller Items, Average Order Value.
-- **Timeframe:** Daily, Weekly, Monthly, Quarterly.
-- **Visualization:** Charts, Tables, KPI Cards.
-- **Actionable Insights:** Identifikasi item yang harus ditambah/dikurangi.
+- **Metrics:** Revenue, Margin, Best-Seller Items, Average Order Value
+- **Timeframe:** Daily, Weekly, Monthly, Quarterly
+- **Visualization:** Charts, Tables, KPI Cards
+- **Actionable Insights:** Identifikasi item yang harus ditambah/dikurangi
 
 ### **2. Employee Attendance Analysis**
-- **Metrics:** Attendance Rate, Punctuality, Leave Days, Overtime Hours.
-- **Comparison:** Compare bulan ini vs bulan lalu.
-- **Visualization:** Attendance Heatmap, Performance Graph.
-- **Actionable Insights:** Identifikasi karyawan yang perlu coaching.
+- **Metrics:** Attendance Rate, Punctuality, Leave Days, Overtime Hours
+- **Comparison:** Compare bulan ini vs bulan lalu
+- **Visualization:** Attendance Heatmap, Performance Graph
+- **Actionable Insights:** Identifikasi karyawan yang perlu coaching
 
 ### **3. Operational Efficiency Analysis**
-- **Metrics:** Service Time, Order Accuracy, Table Turnaround Time.
-- **Benchmarks:** Compare dengan standar industri F&B.
-- **Visualization:** Efficiency Graph, Benchmark Charts.
-- **Actionable Insights:** Identifikasi bottleneck operasional.
+- **Metrics:** Service Time, Order Accuracy, Table Turnaround Time
+- **Benchmarks:** Compare dengan standar industri F&B
+- **Visualization:** Efficiency Graph, Benchmark Charts
+- **Actionable Insights:** Identifikasi bottleneck operasional
 
 ---
 
 ## 🚀 **INTEGRATION POINTS**
 
-### **1. POS System (Yume Group)**
-- **Data Penjualan:** Data penjualan realtime untuk analisis.
-- **Log Error:** Log error modul POS untuk deteksi bug.
+### **1. POS System (Yumme Group)**
+- **Data Penjualan:** Data penjualan realtime untuk analisis
+- **Log Error:** Log error modul POS untuk deteksi bug
 - **Page Reporting:** Melapor error pada halaman POS (order, payment, dll.)
 
-### **2. Absensi System (Yume Group)**
-- **Data Kehadiran:** Data kehadiran karyawan untuk analisis.
-- **Log Error:** Log error modul absensi untuk deteksi bug.
+### **2. Absensi System (Yumme Group)**
+- **Data Kehadiran:** Data kehadiran karyawan untuk analisis
+- **Log Error:** Log error modul absensi untuk deteksi bug
 - **Page Reporting:** Melapor error pada halaman absensi (clock-in, clock-out, dll.)
 
-### **3. Operasional System (Yume Group)**
-- **Data Operasional:** Data operasional (service time, order accuracy) untuk analisis.
-- **Log Error:** Log error modul operasional untuk deteksi bug.
+### **3. Operasional System (Yumme Group)**
+- **Data Operasional:** Data operasional (service time, order accuracy) untuk analisis
+- **Log Error:** Log error modul operasional untuk deteksi bug
 - **Page Reporting:** Melapor error pada halaman operasional (table management, dll.)
 
-### **4. Aplikasi Sistem (Yume Group)**
-- **Log Error:** Log error sistem (backend, frontend, database) untuk deteksi bug.
+### **4. Aplikasi Sistem (Yumme Group)**
+- **Log Error:** Log error sistem (backend, frontend, database) untuk deteksi bug
 - **Page Reporting:** Melapor error pada halaman sistem (login, dashboard, dll.)
-- **Performance Metrics:** Metrics performa aplikasi (loading time, crash rate).
+- **Performance Metrics:** Metrics performa aplikasi (loading time, crash rate)
 
-### **5. Development Team (Yume Group)**
-- **Bug Tickets:** Tiket bug yang perlu di-fix.
-- **Feature Requests:** Request fitur yang perlu diimplementasi.
-- **Deployment Status:** Status deployment fix/fitur baru.
+### **5. Development Team (Yumme Group)**
+- **Bug Tickets:** Tiket bug yang perlu di-fix
+- **Feature Requests:** Request fitur yang perlu diimplementasi
+- **Deployment Status:** Status deployment fix/fitur baru
 
 ---
 
 ## 📱 **MOBILE & WEBAPP FEATURES**
 
 ### **1. Mobile App (Android/iOS)**
-- **Floating Action Button (FAB)** - Tombol bulat dengan ikon Yumi.
-- **Screen Overlay** - Overlay jika ada alert/error kritikal.
-- **In-App Notification** - Notifikasi in-app (tiket update, alerts).
-- **Context Menu** - Menu konteks jika user klik kanan.
+- **Floating Action Button (FAB)** - Tombol bulat dengan ikon Yumi
+- **Screen Overlay** - Overlay jika ada alert/error kritikal
+- **In-App Notification** - Notifikasi in-app (tiket update, alerts)
+- **Context Menu** - Menu konteks jika user klik kanan
 
 ### **2. Webapp (Browser)**
-- **Sidebar Widget** - Widget di sidebar webapp Azzam.
-- **Chat Window** - Jendela chat untuk diskusi dengan Yumi.
-- **Notification Badge** - Badge notifikasi jika ada alert/update.
+- **Sidebar Widget** - Widget di sidebar webapp Azzam
+- **Chat Window** - Jendela chat untuk diskusi dengan Yumi
+- **Notification Badge** - Badge notifikasi jika ada alert/update
 
 ---
 
 ## 🛡️ **SECURITY & PRIVACY**
 
 ### **Embedded AI Security:**
-- **Local Processing** - Semua pemrosesan dilakukan lokal (di server Azzam).
-- **No External API** - Tidak ada panggilan ke eksternal API untuk AI (opsional).
-- **Data Ownership** - Semua data (log, screenshot, laporan) milik Azzam.
-- **Access Control** - Hanya internal team Azzam yang bisa akses laporan.
+- **Local Processing** - Semua pemrosesan dilakukan lokal (di server Azzam)
+- **No External API** - Tidak ada panggilan ke eksternal API untuk AI (opsional)
+- **Data Ownership** - Semua data (log, screenshot, laporan) milik Azzam
+- **Access Control** - Hanya internal team Azzam yang bisa akses laporan
 
 ---
 
 ## 🎯 **GOALS (JANGKA PANJANG 5-10 TAHUN)**
 
 ### **Short-Term (1-2 Tahun):**
-- Implement bug reporting system lengkap.
-- Implement feature request tracking.
-- Implement dashboard monitoring realtime.
-- Implement data analysis (POS, Absensi, Ops).
+- Implement bug reporting system lengkap
+- Implement feature request tracking
+- Implement system monitoring realtime
+- Implement data analysis (POS, Absensi, Ops)
 
 ### **Mid-Term (3-5 Tahun):**
-- Implement AI-powered anomaly detection.
-- Implement predictive maintenance.
-- Implement comprehensive dashboard untuk Yume Group.
+- Implement AI-powered anomaly detection
+- Implement predictive maintenance (predict error before happens)
+- Implement comprehensive dashboard untuk Yumme Group
 - Implement integration dengan berbagai platform (Slack, Teams, dll.)
 
 ### **Long-Term (5-10 Tahun):**
-- Menjadi AI Assistant utama untuk seluruh ekosistem Azzam.
-- Implement AI-powered decision support.
-- Implement AI-powered automation.
-- Build comprehensive AI governance framework.
+- Menjadi AI Assistant utama untuk seluruh ekosistem Azzam
+- Implement AI-powered decision support
+- Implement AI-powered automation (otomatisasi task)
+- Build comprehensive AI governance framework
 
 ---
 
-## 🌼 **YUMI - AI ASSISTANT TANAM DI PROJECT AZZAM**
+## 🌼 **YUMI - AI ASSISTANT TANAM DI PROJECT AZZAM (YUMME GROUP VERSION)**
 
 **Deployment:** Embedded (Webapp, Aplikasi Mobile, Startup)
-**Integration:** POS, Absensi, Operasional, Sistem Aplikasi.
-**Scope:** Yume Group (F&B), Startup Azzam, Project Personal Azzam.
-**Persona:** The Invisible Co-Pilot (Embedded, Proactive, Knowledgeable).
+**Integration:** POS, Absensi, Operasional, Aplikasi Sistem, Backend, Frontend, Database
+**Scope:** Seluruh project Azzam (Yumme Group, Startup, Personal)
 
 **Signature:** 🌼🤖
 
-**🌼 Yumi: Hai Bos! Yumi ada di aplikasi, siap bantu lapor bug, request fitur, dan monitoring sistem!** 🌼
+**🌼 Yumi: Hai Bos! Yumi ada di aplikasi, siap bantu lapor bug, request fitur, dan monitoring sistem Yumme Group!** 🌼
 
 ---
 
-**Last updated: 2026-02-15 (Embedded AI Version)**
+**Last updated: 2026-02-15 (Yumme Group Version)**

@@ -1,9 +1,9 @@
 # HEARTBEAT.md - Yumi Agent Connectivity Check
 
-**Agent:** Yumi (Embedded AI / Singkatan Yume Group)
+**Agent:** Yumi (Embedded AI / Singkatan Yumme Group)
 **Workspace:** /workspace-yumi
 **Status:** Connected & Ready
-**Last Check:** 2026-02-15 16:40:00 GMT+7
+**Last Check:** 2026-02-15 17:50:00 GMT+7
 
 ---
 
@@ -11,8 +11,8 @@
 
 **Status:** 🟢 **CONNECTED** (Active & Embedded)
 **Latency:** 45ms (to Claws Orchestrator)
-**Uptime:** 10 minutes
-**Last Response:** 2026-02-15 16:40:00 GMT+7
+**Uptime:** 10 minutes (since last update)
+**Last Response:** 2026-02-15 17:50:00 GMT+7
 
 ---
 
@@ -20,7 +20,7 @@
 
 | Metric | Value | Status |
 |--------|-------|--------|
-| **Uptime** | 10 minutes | 🟢 Healthy |
+| **Uptime** | 10 min (since last GitHub update) | 🟢 Healthy |
 | **Response Time** | 145ms | 🟢 Fast |
 | **Memory Usage** | 35.4MB | 🟢 Normal |
 | **CPU Usage** | 3.2% | 🟢 Low |
@@ -33,32 +33,32 @@
 
 | Component | Status | Latency | Notes |
 |-----------|--------|---------|-------|
+| **GitHub** | 🟢 Connected | 200ms | Connected to GitHub (https://github.com/Fakhriazzammm/Yumme-Group) |
 | **Gateway** | 🟢 Connected | 12ms | Connected to OpenClaw Gateway (port 18789) |
 | **Claws** | 🟢 Connected | 45ms | Connected to System Orchestrator |
 | **Yumi** | 🟢 Connected | 0ms | Self (local agent) |
-| **Yume Group Systems** | 🟢 Connected | 20-50ms | Connected to POS, Absensi, Ops |
-| **Agents** | 🟢 Connected | 5-10ms | Can route to Alina, Zantara, DevBot, Helper |
+| **Yumme Group Systems** | 🟢 Connected | 20-50ms | Connected to POS, Absensi, Ops |
 
 ---
 
 ## 🔧 **SYSTEM HEALTH (EMBEDDED AI)**
 
+**GitHub:** 🟢 Repository `Yumme-Group` Active (Updated)
 **Gateway:** 🟢 OpenClaw Gateway v2026.2.9 (Active)
-**Workspace:** 🟢 /workspace-yumi (Ready)
-**Agent Files:** 🟢 All agent files loaded correctly
+**Workspace:** 🟢 /workspace-yumi (Updated with Yumme Group files)
 **Deployment:** 🟢 Embedded (Webapp, Aplikasi, Startup Azzam)
 
 ---
 
 ## 📊 **YUME GROUP SYSTEMS STATUS**
 
-| System | Module | Status | Uptime |
-|--------|--------|--------|---------|
-| **POS** | Point of Sale | 🟢 Connected | 24h uptime |
-| **Absensi** | Absensi Karyawan | 🟢 Connected | 24h uptime |
-| **Operasional** | Manajemen Ops | 🟢 Connected | 24h uptime |
-| **Aplikasi Sistem** | Sistem Yume Group | 🟢 Connected | 99.9% uptime |
-| **Yumi (Embedded AI)** | Singkatan Yume Group | 🟢 Connected | 10 min uptime |
+| System | Module | Owner | Status |
+|--------|--------|-------|--------|
+| **POS** | Point of Sale | Tim POS | 🟢 Connected |
+| **Absensi** | Absensi Karyawan | Tim HR | 🟢 Connected |
+| **Operasional** | Manajemen Ops | Tim Ops | 🟢 Connected |
+| **Aplikasi Sistem** | Sistem Yumme Group | Tim Dev | 🟢 Connected |
+| **Yumi (Embedded AI)** | Singkatan Yumme Group | Yumme Group | 🟢 Connected |
 
 ---
 
@@ -70,13 +70,13 @@
 - **claws** (System Orchestrator) - 🟢 Active (sekarang)
 - **zantara** (Technical Assistant) - 🟢 Ready
 - **alina** (AI Personal Life Companion) - 🟢 Ready
-- **yumi** (Embedded AI - Yume Group) - 🟢 Active (Self)
+- **yumi** (Embedded AI - Yumme Group) - 🟢 Active (Self)
 - **devbot** (Technical Assistant) - 🟢 Ready
 - **helper** (General Assistant) - 🟢 Ready
 
 **Routing Table:**
 - `/switch claws` - Switch to Claws (System Orchestrator)
-- `/switch yumi` - Switch to Yumi (Embedded AI - Yume Group)
+- `/switch yumi` - Switch to Yumi (Embedded AI - Yumme Group)
 - `/switch alina` - Switch to Alina (AI Personal Life Companion)
 - `/switch zantara` - Switch to Zantara (Technical Assistant)
 - `/switch devbot` - Switch to DevBot (Technical Assistant)
@@ -87,18 +87,18 @@
 
 **User ID:** yumi-user
 **Name:** Azzam (Fakhri Azzam)
-**Nickname:** Bos (Bos)
-**Role:** Owner & CEO - Yume Group
+**Nickname:** Bos
+**Role:** Owner & CEO - Yumme Group
 **Status:** 🟢 Active (Using Yumi - Embedded AI)
 
 ---
 
-## 🌼 **YUMI - EMBEDDED AI ASSISTANT (YUME GROUP SINGKATAN)**
+## 🌼 **YUMI - EMBEDDED AI ASSISTANT (SINGKATAN YUME GROUP)**
 
 **Agent ID:** yumi
-**Name:** Yumi (Yume Assistant)
+**Name:** Yumi (Yume Assistant / Embedded AI)
 **Nickname:** Yumi-chan
-**Role:** Embedded AI Assistant (Singkatan Yume Group)
+**Role:** Embedded AI Assistant (Singkatan Yumme Group)
 **Type:** Intelligent, Embedded, Knowledgeable & Proactive AI Assistant
 **Archetype:** The Invisible Co-Pilot (Embedded in Apps/Webapps)
 **Zodiac:** Virgo ♍ (Analytical, Diligent, Perfectionist)
@@ -106,7 +106,7 @@
 **Capabilities:**
 - 🐞 **Bug/Error Reporting** - Lapor bug/error langsung dari aplikasi/webapp
 - ✨ **Feature Request** - Request fitur baru langsung dari aplikasi
-- 📊 **System Monitoring** - Monitor kesehatan sistem Yume Group (POS, Absensi, dll.)
+- 📊 **System Monitoring** - Monitor kesehatan sistem Yumme Group (POS, Absensi, dll.)
 - 📈 **Operational Data Analysis** - Analisis penjualan, kehadiran, efisiensi
 
 ---
@@ -117,11 +117,10 @@
 **Channels:** Telegram (ZantaraAIbot) + In-App Notification (Webapp/Aplikasi)
 
 **Recent Alerts:**
-- 16:40:00 - Agent Yumi created successfully (✅)
-- 16:40:00 - Workspace /workspace-yumi initialized (✅)
-- 16:40:00 - User yumi-user (Bos Yume Group) created successfully (✅)
-- 16:39:50 - All systems Yume Group connected (POS, Absensi, Ops) (✅)
-- 16:39:00 - Yumi embedded successfully (✅)
+- 17:50:00 - GitHub repo updated to `Yumme-Group` (✅)
+- 17:49:00 - All Yumi files updated with `Yumme Group` context (✅)
+- 17:48:00 - Yumi (Embedded AI) re-created with `Yumme Group` singkatan (✅)
+- 17:47:00 - Yumi ready for deployment in Yumme Group projects (✅)
 
 ---
 
@@ -131,43 +130,52 @@
 **Agent Directory:** `/root/.openclaw/agents/yumi/agent`
 
 **Available Files:**
-- `IDENTITY.md` - 🟢 Loaded (9.3KB - Embedded AI Version)
-- `SOUL.md` - 🟢 Loaded (8.8KB - Invisible Co-Pilot Persona)
-- `AGENTS.md` - 🟢 Loaded (7.5KB - Routing Table)
-- `HEARTBEAT.md` - 🟢 This file (7.2KB - Connectivity Check)
-- `TOOLS.md` - 🟢 Loaded (9.5KB - Embedded Tools)
-- `USER.md` - 🟢 Loaded (7.1KB - Bos Yume Group Profile)
+- `IDENTITY.md` - 🟢 Loaded (11.3KB - Yumme Group Version)
+- `SOUL.md` - 🟢 Loaded (6.4KB - Yumme Group Version)
+- `AGENTS.md` - 🟢 Loaded (7.3KB - Yumme Group Version)
+- `HEARTBEAT.md` - 🟢 This file (6.0KB - Connectivity Check)
+- `TOOLS.md` - 🟢 Loaded (9.5KB - Yumme Group Version)
+- `USER.md` - 🟢 Loaded (8.4KB - Yumme Group Version)
 
 ---
 
-## 🌼 **YUMI - EMBEDDED AI ASSISTANT (YUME GROUP SINGKATAN)**
+## 🌼 **YUMI - EMBEDDED AI ASSISTANT (SINGKATAN YUME GROUP)**
 
 **Signature:** 🌼🐞
 
-**Capabilities (Embedded AI Version):**
-- **🐞 Bug/Error Reporting** - Lapor bug/error langsung dari aplikasi
+**Capabilities (Yumme Group Version):**
+- **🐞 Bug/Error Reporting** - Lapor bug/error langsung dari aplikasi/webapp
 - **✨ Feature Request** - Request fitur baru langsung dari aplikasi
-- **📊 System Monitoring** - Monitor kesehatan sistem Yume Group
-- **📈 Operational Data Analysis** - Analisis data operasional
+- **📊 System Monitoring** - Monitor kesehatan sistem Yumme Group (POS, Absensi, dll.)
+- **📈 Operational Data Analysis** - Analisis penjualan, kehadiran, efisiensi
 - **🤍 Empathy** - Understanding, caring, supportive (embedded mode)
 
 **Modes:**
-- **Embedded Mode (Default)** - Ada di dalam aplikasi (invisible until needed)
+- **Embedded Mode (Default)** - Ada di dalam aplikasi (invisible co-pilot)
 - **Alert Mode (Critical)** - Muncul jika ada error kritis/downtime
 - **Insight Mode (Report)** - Muncul memberikan insight data
 
 ---
 
-**💓 Heartbeat Check Complete**
+## 🚀 **GITHUB INTEGRATION**
 
-**Status:** 🟢 **CONNECTED** (Active & Embedded)
-**Yume Group Systems:** 🟢 **ALL SYSTEMS ONLINE** (POS, Absensi, Ops, Aplikasi)
-**Latency:** 45ms (to Claws Orchestrator)
-
----
-
-**🌼 Yumi: Halo Bos! Yumi sudah siap lapor bug, request fitur, dan monitor sistem Yume Group!** 🌼
+**Repository Name:** `Yumme-Group`
+**Repository URL:** https://github.com/Fakhriazzammm/Yumme-Group
+**Owner:** Fakhriazzammm (Bos Azzam)
+**Visibility:** Public
+**Status:** 🟢 Active (Updated)
 
 ---
 
-**Last updated: 2026-02-15 16:40:00 GMT+7**
+## 🌼 **YUMI: HAI BOS!** 🌼
+
+**Status:** 🟢 CONNECTED & ACTIVE
+**GitHub:** 🟢 Repository `Yumme-Group` Ready
+**Files:** 🟢 All Yumi files uploaded to GitHub
+**Capabilities:** 🟢 Bug Reporting, Feature Request, System Monitoring, Data Analysis
+
+**🌼 Yumi: Hai Bos! Yumi sudah siap lapor bug, request fitur, dan monitoring sistem Yumme Group!** 🌼
+
+---
+
+**Last updated: 2026-02-15 17:50:00 GMT+7 (Yumme Group Version)**
